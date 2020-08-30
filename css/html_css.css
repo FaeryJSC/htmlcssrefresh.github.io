@@ -1,0 +1,155 @@
+body{
+	background-color: darkgray;
+	 height:100vh;
+	 margin: 0;
+}
+
+#heading{
+	background-color: snow;
+	width: 100%;
+	height: 15%;
+}
+
+.logo{
+	height:80px;
+    width: auto;
+    max-width: 410px;
+    padding-left: 70px;
+    margin-top: 10px;
+    float: left;
+}
+
+.search{
+	height: 40px;
+	max-width: 400px;
+	background-color: #EBEBEB;
+	border-style: solid;
+	border-color: lightgray;
+	border-radius: 10px;
+	float: left;
+	margin-left: 750px;
+	margin-top: 35px;
+}
+
+.searchicon{
+	height: 40px;
+	max-width: 50px;
+	background-color: #909090;
+	border-radius: 0px 10px 10px 0px;
+	margin-left: 350px;
+}
+
+.icon{
+	height:45px;
+    width: auto;
+    max-width: 370px;
+    margin-left: 0px;
+    padding-right: 6px;
+}
+
+#navbar{
+	width: 100%;
+	height: 7%;
+	background-color: #271F1C;
+}
+
+.pageName ul{
+	display: inline;
+	color: #FFFFFC;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.pageName ul:hover{
+	color: #d1de44;
+}
+
+.pageName{
+	padding: 15px;
+	margin-left: 36%;
+	margin-right: 30%;
+}
+
+.mainImage{
+	width: 98%;
+	height: 70%;
+	padding: 15px;
+}
+
+#contentDiv{
+	background-color: snow;
+	padding: 20px 0px 20px 0px;
+	width: 100%;
+	height: 73%;
+}
+
+.sect1, .sect2{
+	width: 420px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+	font-family: 'Arial', sans-serif;
+}
+
+.contentImage{
+	max-width:100%;
+	max-height:100%;
+}
+
+.scrollbox{
+	width: 420px;
+	height: 460px;
+	margin-top: 10px;
+	margin-left: 60px;
+	border: none;
+	padding: 10px;
+	overflow: auto;
+	float: left;
+	background-color: #EEEEEF;
+	font-family: 'Arial', sans-serif;
+}
+
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid #9E9E9E;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #9E9E9E;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #686868;  
+}
+
+.centerTitle{
+	text-align: center;
+}
+
+#footer{
+	width: 100%;
+	height: 10%;
+	background-color: #271F1C;
+}
+
+.lowerPage ul{
+	display: inline;
+	color: #FFFFFC;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+
+.lowerPage .name:hover{
+	color: #d1de44;
+}
+
+.lowerPage{
+	padding: 25px;
+	margin-left: 32%;
+	margin-right: 30%;
+}
